@@ -27,7 +27,7 @@ public class Foursquare extends Shape {
     }
 
     private double getDiagonal() {
-        return Math.random() * 50;
+        return Math.random() * 49;
     }
     private double getSide() {
         return Math.random() * 20;

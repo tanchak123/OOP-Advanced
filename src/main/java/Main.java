@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("How random much shapes do you want?");
+        System.out.println("How much random shapes do you want?");
         Scanner asker = new Scanner(System.in);
         Shape[] shapes = new Shape[asker.nextInt()];
         for (int i = 0; i < shapes.length; i++) {

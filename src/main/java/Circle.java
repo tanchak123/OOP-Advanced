@@ -26,5 +26,4 @@ public class Circle<T> extends Shape {
     private double getRadius() {
         return Math.random() * 50;
     }
-
 }

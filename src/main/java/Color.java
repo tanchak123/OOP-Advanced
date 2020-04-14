@@ -8,5 +8,4 @@ public enum Color {
     public static String getRandomColor() {
         return Color.values()[(int) (Math.random() * 6)].name();
     }
-
 }

@@ -35,7 +35,7 @@ public class Trapezoid extends Shape {
     }
 
     public double getDownSide() {
-        return Math.random() * 13;
+        return Math.random() * 12;
     }
 
     public double getHeight() {
