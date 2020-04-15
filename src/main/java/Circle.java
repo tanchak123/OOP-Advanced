@@ -6,8 +6,9 @@ public class Circle<T> extends Shape {
 
     public Circle (String color) {
         super("Circle", color);
-        this.square = Double.parseDouble(String.format(Locale.ENGLISH,"%(.2f",getSquare()));
         this.radius = Double.parseDouble(String.format(Locale.ENGLISH,"%(.2f",getRadius()));
+        this.square = Double.parseDouble(String.format(Locale.ENGLISH,"%(.2f",getSquare()));
+
     }
 
     @Override
@@ -20,7 +21,7 @@ public class Circle<T> extends Shape {
 
     @Override
     public double getSquare() {
-        return radius * Math.PI;
+        return radius * Math.pow(Math.PI,2);
     }
 
     private double getRadius() {
